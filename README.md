@@ -8,7 +8,7 @@ Ante la *preocupación* de un posible robo, hurto, extravío, etc. de mi portát
 
 « ¿Cómo puedo saber en qué ubicación se encuentra mi portátil sin necesidad de acceder directamente a google map, y por supuesto, dando por hecho que no estaré presente una vez se haya *perdido* mi portátil? » - me pregunté
 
-La idea es *relativamente* sencilla. Supongamos que alguien enciende mi portátil tras haberse extraviado. Ese alguien, como persona cívica, lo primero que haría, o debería hacer, es comunicarselo a la policia. Sin embargo, podemos encontrarnos en la situación de que esto no ocurra.
+La idea es *relativamente* sencilla. Supongamos que alguien encuentra mi portátil tras haberse *extraviado*. Ese alguien, como persona cívica, lo primero que haría, o debería hacer, es comunicarselo a la policia. Sin embargo, podemos encontrarnos en la situación de que esto no ocurra.
 
 Lo normal que hará dicha persona, persona que desde este momento llamaremos *Rodrigo* (un nombre cualquiera), será querer acceder al contenido del ordenador.
 
@@ -36,7 +36,7 @@ A groso modo, esta es la idea. Idea que desarrollaremos a continuación.
 
 <img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Configurar que se ejecute al inicio de sesión.
 
-<img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Configurar para que envíe un email con fecha, hora y el enlace de la ubicación.
+<img src="https://img.icons8.com/color/30/000000/checked-2.png"> Configurar para que envíe un email con fecha, hora y el enlace de la ubicación.
 
 ## Autores ✒️
 

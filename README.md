@@ -30,7 +30,7 @@ A groso modo, esta es la idea. Idea que desarrollaremos a continuación.
 
 <img src="https://img.icons8.com/color/30/000000/checked-2.png"> Parametrizar variables en un archivo yml (API key, url, etc.).
 
-<img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Versionar para Windows.
+<img src="https://img.icons8.com/color/30/000000/checked-2.png"> Versionar para Windows.
 
 <img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Compilar en un .exe para Windows, de esta forma no se tendria la necesidad de tener instalado python previamente.
 

@@ -1,6 +1,6 @@
 # <img src="https://img.icons8.com/clouds/100/000000/place-marker.png"> G30LOC - Script de geolocalización
 
-### <img src="https://img.icons8.com/flat_round/54/000000/presentation.png">EN DESARROLLO<img src="https://img.icons8.com/color/48/000000/gear.png">
+### ⚙️ EN DESARROLLO ⚙️
 
 ## De qué va esto <img src="https://img.icons8.com/clouds/100/000000/window-settings.png">
 

@@ -6,7 +6,7 @@
 
 Ante la *preocupación* de un posible robo, hurto, extravío, etc. de mi portátil, me vi en la tesitura personal de dar solución a este problema.
 
-« ¿Cómo puedo saber en qué ubicación se encuentra mi portátil sin necesidad de acceder directamente a google map, y por supuesto, dando por hecho que no estaré presente una vez se haya *perdido* mi portátil? » - me pregunté
+​		« ¿Cómo puedo saber en qué ubicación se encuentra mi portátil sin necesidad de acceder directamente a google map, y por supuesto, dando por hecho que no estaré presente una vez se haya *perdido* mi portátil? » - me pregunté
 
 La idea es *relativamente* sencilla. Supongamos que alguien encuentra mi portátil tras haberse *extraviado*. Ese alguien, como persona cívica, lo primero que haría, o debería hacer, es comunicarselo a la policia. Sin embargo, podemos encontrarnos en la situación de que esto no ocurra.
 
@@ -32,17 +32,23 @@ A groso modo, esta es la idea. Idea que desarrollaremos a continuación.
 
 <img src="https://img.icons8.com/color/30/000000/checked-2.png"> Versionar para Windows.
 
-<img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Compilar en un .exe para Windows, de esta forma no se tendria la necesidad de tener instalado python previamente.
+<img src="https://img.icons8.com/color/30/000000/checked-2.png">Compilar en un .exe para Windows, de esta forma no se tendria la necesidad de tener instalado python previamente.
 
 <img src="https://img.icons8.com/material-outlined/30/000000/unchecked-checkbox.png"> Configurar que se ejecute al inicio de sesión.
 
-<img src="https://img.icons8.com/color/30/000000/checked-2.png"> Configurar para que envíe un email con fecha, hora y el enlace de la ubicación.
+<img src="https://img.icons8.com/color/30/000000/checked-2.png"> Configurar para que envíe un email con fecha, hora y el enlace de la ubicación.￼ 
+
+## Compilación a exe <img src="https://img.icons8.com/cute-clipart/64/000000/code-file.png">
+
+Para llevar a cabo la compilación hay muchisima documentación que facilita el proceso. Sin embargo, *googleando*, he dado con un repositorio de un señor, **Brent Vollebregt**, dejo en este [enlace](https://github.com/brentvollebregt/auto-py-to-exe) su repositorio. 
+
+Este señor ha desarrollado un framework que facilita, desde una interfaz gráfica e intuitiva, la compilación de cualquier script python. La verdad que es muy útil, recomiendo echarle un vistazo.
 
 ## Autores ✒️
 
 _Se agradece la reseña o cita del autor, de su trabajo y del propio repositorio en los trabajos a los que haya aportado algo de luz y conocimiento._
 
-**Rafael Fernández Ortiz**.- 	:briefcase: [*LinkedIn*](https://www.linkedin.com/in/rafael-fern%C3%A1ndez-ortiz-7a1684171/) - ​<img src="https://img.icons8.com/color/20/000000/open-envelope.png">​ ​[Gmail](mailto:rafaelfernandezortiz@gmail.com) - ​<img src="https://img.icons8.com/color/20/000000/cardboard-box.png">​ [GitHub](https://github.com/rafafrdz) - :bookmark_tabs: [Cv](https://rafafrdz.github.io/) 
+**Rafael Fernández Ortiz**.- 	:briefcase: [LinkedIn](https://www.linkedin.com/in/rafael-fern%C3%A1ndez-ortiz-7a1684171/) - ​<img src="https://img.icons8.com/color/20/000000/open-envelope.png">​ ​[Gmail](mailto:rafaelfernandezortiz@gmail.com) - ​<img src="https://img.icons8.com/color/20/000000/cardboard-box.png">​ [GitHub](https://github.com/rafafrdz) - :bookmark_tabs: [Cv](https://rafafrdz.github.io/) 
 
 ## Expresiones de gratitud  y/o sugerencias <img src="https://img.icons8.com/color/48/000000/beer.png">
 

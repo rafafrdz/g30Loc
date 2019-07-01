@@ -11,6 +11,7 @@ import yaml
 
 path ="./g30Loc.yml"
 cfg = yaml.safe_load(open(path))
+
 def enviar(aviso):
     msg = MIMEMultipart()
     #parametros

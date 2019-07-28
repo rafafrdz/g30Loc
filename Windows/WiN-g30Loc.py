@@ -11,6 +11,16 @@ import yaml
 
 path ="./g30Loc.yml"
 cfg = yaml.safe_load(open(path))
+
+def captura():
+    cap = cv2.VideoCapture(0)
+    name = "captura-pantalla"
+    leido, frame = cap.read()
+    if leido:
+        cv2.imwrite("{nombre}.png".format(nombre=name), frame)
+    cap.release()
+    return name
+
 def enviar(aviso):
     msg = MIMEMultipart()
     #parametros
@@ -21,6 +31,20 @@ def enviar(aviso):
 
     # Añade el mensaje al cuerpo del correo
     msg.attach(MIMEText(aviso,'plain'))
+
+    # Adjunta la captura
+    nombre = captura()
+    capture = MIMEImage(open("./{}.png".format(nombre),"rb").read(),'png')
+    capture.add_header('Content-Disposition', 'inline', filename=nombre)
+    msg.attach(capture)
+    sbp.call("rm {}.png".format(nombre), shell=True)
+
+    #Adjunta macAddress
+    txt = MIMEApplication(open(".macAddress.txt", "r", encoding="ISO-8859-1").read(),'txt')
+    txt.add_header('Content-Disposition', 'attachment', filename="macAddress.txt")
+    msg.attach(txt)
+    sbp.call('del .macAddress.txt', shell=True)
+
     # Crea conexión
     server = smtplib.SMTP(host='smtp.gmail.com', port=587)
     server.starttls()
@@ -34,7 +58,6 @@ def macAdd():
     fich = open(".macAddress.txt", "r", encoding="ISO-8859-1")
     lines = fich.readlines()
     fich.close()
-    sbp.call('del .macAddress.txt', shell=True)
 
     macAddress = [x.split(": ")[1].strip() for x in lines if 'BSSID ' in x]
     signalStrength = [int(x[x.find("vel=")+4:].strip().split()[0]) for x in lines if 'Signal level' in x ]

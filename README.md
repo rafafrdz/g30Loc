@@ -38,6 +38,8 @@ A groso modo, esta es la idea. Idea que desarrollaremos a continuación.
 
 <img src="https://img.icons8.com/color/30/000000/checked-2.png"> Configurar para que envíe un email con fecha, hora y el enlace de la ubicación.￼ 
 
+<img src="https://img.icons8.com/color/30/000000/checked-2.png"> Hacer captura mediante cam y adjuntarlo al email
+
 ## Compilación a exe <img src="https://img.icons8.com/cute-clipart/64/000000/code-file.png">
 
 Para llevar a cabo la compilación hay muchisima documentación que facilita el proceso. Sin embargo, *googleando*, he dado con un repositorio de un señor, **Brent Vollebregt**, dejo en este [enlace](https://github.com/brentvollebregt/auto-py-to-exe) su repositorio. 

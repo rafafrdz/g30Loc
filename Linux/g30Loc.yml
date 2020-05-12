@@ -1,6 +1,0 @@
-key: # Determinar API-key de google maps
-url: https://www.googleapis.com/geolocation/v1/geolocate?key=
-ubicacion: https://www.google.com/maps/dir/'{a},{b}'/{a},{b}/@{a},{b},20z
-tarjeta-red: # Determinar la tarjeta de red
-email: # Determinar email
-pass: # Determinar pass para loggin de email

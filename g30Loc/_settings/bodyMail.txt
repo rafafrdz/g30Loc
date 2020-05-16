@@ -1,0 +1,7 @@
+GoogleMap Url
+==============
+{url}
+--------------
+Latitud: {posX}
+Longitud: {posY}
+Rafio: {posZ}
